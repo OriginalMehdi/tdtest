@@ -1226,15 +1226,15 @@ DcOptions ConnectionCreator::get_default_dc_options(bool is_test) {
   vector<int> ports = {8889};
 #if TD_EMSCRIPTEN
   if (is_test) {
-    add_ip_ports(1, {"pluto.web.yoyomessenger.ir/apiws_test"}, {443}, HostType::Url);
-    add_ip_ports(2, {"venus.web.yoyomessenger.ir/apiws_test"}, {443}, HostType::Url);
-    add_ip_ports(3, {"aurora.web.yoyomessenger.ir/apiws_test"}, {443}, HostType::Url);
+    add_ip_ports(1, {"pluto.yoyomessenger.ir/apiws_test"}, {443}, HostType::Url);
+    add_ip_ports(2, {"venus.yoyomessenger.ir/apiws_test"}, {443}, HostType::Url);
+    add_ip_ports(3, {"aurora.yoyomessenger.ir/apiws_test"}, {443}, HostType::Url);
   } else {
-    add_ip_ports(1, {"pluto.web.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
-    add_ip_ports(2, {"venus.web.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
-    add_ip_ports(3, {"aurora.web.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
-    add_ip_ports(4, {"vesta.web.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
-    add_ip_ports(5, {"flora.web.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
+    add_ip_ports(1, {"pluto.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
+    add_ip_ports(2, {"venus.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
+    add_ip_ports(3, {"aurora.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
+    add_ip_ports(4, {"vesta.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
+    add_ip_ports(5, {"flora.yoyomessenger.ir/apiws"}, {443}, HostType::Url);
   }
 #else
   if (is_test) {
