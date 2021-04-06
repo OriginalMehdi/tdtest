@@ -5,7 +5,7 @@
   "main": "dist/tdweb.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tdlib/td.git",
+    "url": "https://github.com/OriginalMehdi/tdtest.git",
     "directory": "example/web/tdweb"
   },
   "files": [
